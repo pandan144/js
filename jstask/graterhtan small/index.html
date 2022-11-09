@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+</head>
+<body>
+
+    <script>
+        var largest=[13,43,22,65,7,89,90,50];
+        var l=0;
+        for(i=0;i<=largest.length;i++){
+            if (largest[i]>l){
+                l=largest[i];
+            }
+        }
+        document.write("largest number"+l);
+        document.write("<br>")
+
+        for(i=0;i<=largest.length;i++){
+            if (largest[i]<l){
+                l=largest[i];
+            }
+        }
+        document.write("smallest number"+l);
+
+    </script>
+
+    
+</body>
+</html>
