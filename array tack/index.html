@@ -15,7 +15,7 @@
             z=prompt();
             y[i]=z;
         }
-        console.log(y);*/
+        console.log(y);
 
 
     //
@@ -31,7 +31,34 @@
        }
        a[i]=c;
     }
-    console.log(a);
+    console.log(a);*/
+
+
+    //
+
+    let num=[];
+    let num2=parseInt(prompt("ENTER THE ARRAY"));
+    let num3;
+    for(i=0;i<num2;i++){
+        num4=parseInt(prompt("ENTER THE INNER ARRAY"));
+        if(num4==0){
+          num4=parseInt(prompt("ENTER THE SINGLE ARRAY"));
+          num[i]=num4;
+        }
+        else{
+            num3=[];
+            for(j=0;j<num4;j++){
+            num5=parseInt(prompt("ENTER THE INNER ARRAY"));
+            num3[j]=num5;
+        }
+        num[i]=num3;
+        }
+    }
+    console.log(num);
+
+    
+
+
 </script>
     
     
