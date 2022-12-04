@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>setTimeout function</title>
+	</head>
+<body>
+
+	<script>
+	
+	//setTimeout
+	let a="set";
+	setTimeout(function(){
+	 document.write(a +"<br>");
+	},3000);
+	
+	//setInterval
+	
+	setInterval(function(){
+	 document.write("function of setInterval<br>")
+	},2000);
+	
+	//clearInterval
+	
+	let b=0;
+	
+	const intvervalid=setInterval(function(b){
+		b++;
+		if(b>5){
+			clearInterval(setIntervalid);
+		}
+		document.write(intvervalid);
+	},4000,"krish")
+	
+	
+	
+	</script>
+
+</body>
+</html>
